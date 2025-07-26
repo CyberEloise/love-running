@@ -30,7 +30,6 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px  #3a3a3a;
     display:flex;
-    justify-content: space-between;
     align-items: baseline;
 }
 
@@ -66,7 +65,7 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    display:block;
+    display:none;
     top: 100%;
 }
 /*Nav toggle*/
@@ -76,11 +75,14 @@ nav {
 }
 
 #nav-toggle {
-    display:block;
+    display: none;
+    
 }
 
 .nav-toggle-label {
      font-size: 2rem;
+     left: 0;
+     display:block;
    
 }
 
@@ -103,3 +105,19 @@ main {
 footer { 
     background-color: orange;    
 }
+
+/* Media query: tablets and larger  768px up*/
+
+@media screen and (min-width: 768px) {
+    /*Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+}
+    
+
