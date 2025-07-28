@@ -160,7 +160,7 @@ padding-left: 10px;
 }
 
 #circle-cover-bg {
-    background-image: url("../Images/reasons-image.webp");
+    background-image: url('../Images/reasons-image.webp');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -177,6 +177,18 @@ padding-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+ }
+
+
+ /* Meetups time */
+
+ #times {
+    background-image: url('../Images/dublin-city.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
  }
 
 
