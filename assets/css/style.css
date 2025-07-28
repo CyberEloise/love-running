@@ -160,12 +160,15 @@ padding-left: 10px;
 }
 
 #circle-cover-bg {
-    background: url(../Images/reasons-image.webp) no-repeat top center / cover;
+    background-image: url("../Images/reasons-image.webp");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
     /* makes the square image into a circle */
-    border border-radius: 50%;
+    border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
     }
