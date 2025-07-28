@@ -191,7 +191,16 @@ padding-left: 10px;
     flex-wrap: wrap;
  }
 
+#times div {
+    color:#fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+ }
 
+ #times h3 {
+    color: #fafafa;
+ }
 
 /*Footer*/
 
