@@ -20,6 +20,15 @@ body {
     
 }
 
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+
+
 
 /* Header */
 header {
@@ -86,12 +95,7 @@ nav {
    
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 
 /*Main Content */
 main {
@@ -110,6 +114,12 @@ main {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: relative;
+}
+
+#cover-text{
+background-color: rgba(241, 109, 107, .7);
+font-size: 130%;
 }
 
 /*Footer*/
